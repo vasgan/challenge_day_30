@@ -1,0 +1,14 @@
+{
+  "name": "local-ollama-gateway",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Thin local gateway for Ollama with basic rate/context guards",
+  "type": "module",
+  "scripts": {
+    "start": "bash scripts/start-gateway.sh",
+    "smoke": "bash scripts/smoke-test.sh"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
